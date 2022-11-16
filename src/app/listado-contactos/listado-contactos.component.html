@@ -1,0 +1,12 @@
+<h1>Lista De Contactos</h1>
+<div class="d-flex" >
+	<ul  class="nav-pills" orientation="vertical">
+		<li *ngFor="let usuario of listaContactos">
+			<a >{{ usuario.first_name}} - {{usuario.last_name}}</a>
+
+		</li>
+
+	</ul>
+
+</div>
+
